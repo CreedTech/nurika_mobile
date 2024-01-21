@@ -1,0 +1,12 @@
+<svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Icon">
+        <path id="Path 311"
+            d="M1 18.855V2.98389C1 2.4577 1.20923 1.95313 1.5813 1.58105C1.95337 1.20898 2.45794 1 2.98413 1H15.884C16.4102 1 16.9148 1.20898 17.2869 1.58105C17.6589 1.95313 17.8682 2.4577 17.8682 2.98389V16.8711C17.8682 17.3973 17.6589 17.9019 17.2869 18.2739C16.9148 18.646 16.4102 18.855 15.884 18.855H4.43115"
+            stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <g id="Group 355">
+            <path id="Line 159" d="M5.7832 13.373H8.3072" stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path id="Line 160" d="M5.7832 9.92578H12.9552" stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path id="Line 161" d="M5.7832 6.48047H13.0812" stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+    </g>
+</svg>

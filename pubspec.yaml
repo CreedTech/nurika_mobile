@@ -1,0 +1,103 @@
+description: Mobile App For The Ñurika Platform
+publish_to: "none"
+version: 1.0.8+8
+name: nurika
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+
+  flutter:
+    sdk: flutter
+
+  flutter_background_service_android:
+  flutter_background_service_ios:
+  flutter_local_notifications:
+  flutter_background_service:
+  cached_network_image:
+  riverpod_annotation:
+  permission_handler:
+  freezed_annotation:
+  shared_preferences:
+  pretty_dio_logger:
+  percent_indicator:
+  loading_indicator:
+  flutter_riverpod:
+  flutter_animate:
+  json_annotation:
+  cupertino_icons:
+  in_app_update:
+  image_picker:
+  url_launcher:
+  fluttertoast:
+  flutter_svg:
+  share_plus:
+  pedometer:
+  go_router:
+  timezone:
+  shimmer:
+  rxdart:
+  get_it:
+  intl:
+  dio:
+
+dev_dependencies:
+  flutter_native_splash:
+  flutter_gen_runner:
+  riverpod_generator:
+  json_serializable:
+  riverpod_lint:      
+  flutter_lints:
+  build_runner:
+  custom_lint:
+  freezed:
+
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  image: "assets/images/splash_logo.png"
+  fullscreen: true
+  color: "#3FBD97"
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+
+  colors:
+    inputs:
+      - assets/xml/colors.xml
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/google_fonts/
+    - assets/graphics/
+    - assets/images/
+
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/google_fonts/Outfit-Black.ttf
+          weight: 900
+        - asset: assets/google_fonts/Outfit-ExtraBold.ttf
+          weight: 800
+        - asset: assets/google_fonts/Outfit-Bold.ttf
+          weight: 700
+        - asset: assets/google_fonts/Outfit-SemiBold.ttf
+          weight: 600
+        - asset: assets/google_fonts/Outfit-Medium.ttf
+          weight: 500
+        - asset: assets/google_fonts/Outfit-Regular.ttf
+          weight: 400
+        - asset: assets/google_fonts/Outfit-Light.ttf
+          weight: 300
+        - asset: assets/google_fonts/Outfit-ExtraLight.ttf
+          weight: 200
+        - asset: assets/google_fonts/Outfit-Thin.ttf
+          weight: 100

@@ -1,0 +1,11 @@
+<svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Lock">
+        <g id="Group 809">
+            <path id="Rectangle 306" d="M11.0996 6.10547H5.90036C3.19397 6.10547 1 8.3621 1 11.1458V13.9593C1 16.743 3.19397 18.9996 5.90036 18.9996H11.0996C13.806 18.9996 16 16.743 16 13.9593V11.1458C16 8.3621 13.806 6.10547 11.0996 6.10547Z"
+                stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path id="Path 646" d="M4.76709 6.1048V4.83882C4.76709 3.82073 5.16043 2.84413 5.86034 2.12423C6.56025 1.40433 7.50949 1 8.49931 1C9.48912 1 10.4384 1.40433 11.1383 2.12423C11.8382 2.84413 12.2313 3.82073 12.2313 4.83882V6.1048"
+                stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </g>
+        <path id="Line 409" d="M8.49927 10.9844V13.8775" stroke="#344054" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+</svg>

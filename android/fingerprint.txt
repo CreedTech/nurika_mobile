@@ -1,0 +1,26 @@
+Alias name: nurika
+Creation date: 19 Jan 2023
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Stanley Ibe, OU=Mobile, O=Sekior Limited, L=Abuja, ST=FCT, C=NG
+Issuer: CN=Stanley Ibe, OU=Mobile, O=Sekior Limited, L=Abuja, ST=FCT, C=NG
+Serial number: 45d374c9
+Valid from: Thu Jan 19 02:26:16 WAT 2023 until: Sun Jan 19 02:26:16 WAT 2087
+Certificate fingerprints:
+	 SHA1: 03:25:65:5C:47:05:2C:A3:62:59:65:87:64:C5:65:34:70:28:34:82
+	 SHA256: 5E:87:EC:4B:77:9F:29:01:EA:63:71:28:B4:FF:60:11:D7:F4:CD:68:28:8E:63:19:66:7E:22:94:92:70:1B:19
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 56 D7 31 EE 3B 57 9B 6D   ED 81 7B 20 CF 42 EB 42  V.1.;W.m... .B.B
+0010: 8D B9 64 58                                        ..dX
+]
+]
+

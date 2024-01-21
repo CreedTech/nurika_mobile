@@ -1,0 +1,7 @@
+targets:
+  $default:
+    builders:
+      riverpod_generator:
+        options:
+          provider_family_name_suffix: "ViewModel"
+          provider_name_suffix: "ViewModel"

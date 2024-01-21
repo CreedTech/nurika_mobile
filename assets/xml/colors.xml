@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="oceanGreenSwatch" type="material">#3FBD97</color>
+    <color name="darkJungleGreen">#1D1F23</color>
+    <color name="azureishWhite">#DCE5EC</color>
+    <color name="lavenderGrey">#BDC3CE</color>
+    <color name="brandeisBlue">#0368FF</color>
+    <color name="pantoneGreen">#00B84E</color>
+    <color name="chineseBlack">#0E0F11</color>
+    <color name="independence">#475467</color>
+    <color name="carminePink">#F04438</color>
+    <color name="lightSilver">#D0D5DD</color>
+    <color name="cadmiumRed">#D80027</color>
+    <color name="brightGrey">#EAECF0</color>
+    <color name="oceanGreen">#3FBD97</color>
+    <color name="outerSpace">#3F4654</color>
+    <color name="warmBlack">#0B3C49</color>
+    <color name="vermilion">#D92D20</color>
+    <color name="charcoal">#344054</color>
+    <color name="manatee">#919BAD</color>
+    <color name="arsenic">#3A3E45</color>
+    <color name="quartz">#494E57</color>
+
+</resources>

@@ -1,0 +1,69 @@
+def localProperties = new Properties()
+def keyProperties = new Properties()
+
+localProperties.load(new FileInputStream(rootProject.file("local.properties")))
+keyProperties.load(new FileInputStream(rootProject.file("key.properties")))
+
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-kapt"
+
+apply from: "${localProperties["flutter.sdk"]}/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+	compileSdkVersion rootProject.ext.compileSdkVersion
+	ndkVersion rootProject.ext.ndkVersion
+
+	lintOptions {
+		disable "InvalidPackage"
+	}
+
+	defaultConfig {
+		minSdkVersion rootProject.ext.minSdkVersion
+		targetSdkVersion rootProject.ext.targetSdkVersion
+		versionCode localProperties["flutter.versionCode"].toInteger()
+		versionName localProperties["flutter.versionName"]
+		applicationId "health.nurika.app"
+	}
+
+	signingConfigs {
+		release {
+			storeFile file(keyProperties["storeFile"])
+			storePassword keyProperties["storePassword"]
+			keyPassword keyProperties["keyPassword"]
+			keyAlias keyProperties["keyAlias"]
+		}
+	}
+
+	buildTypes {
+		release {
+			proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+			signingConfig signingConfigs.release
+			minifyEnabled true
+		}
+	}
+
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_11
+		targetCompatibility JavaVersion.VERSION_11
+	}
+
+	sourceSets {
+		main.java.srcDirs += "src/main/kotlin"
+	}
+
+	kotlinOptions {
+		jvmTarget = "11"
+	}
+
+	buildFeatures {
+		viewBinding true
+	}
+}
+
+flutter {
+	source "../.."
+}
+
+dependencies {
+}
